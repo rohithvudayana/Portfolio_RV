@@ -13,7 +13,7 @@ return (
         <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
           Work
         </p>
-        <p className='py-6 text-2xl'> Check out some of my recent work </p>
+        {/* <p className='py-6 text-2xl'> Check out some of my recent work </p> */}
       </div>
 
 
@@ -24,7 +24,7 @@ return (
         <div
           key={index}
           style={{ backgroundImage: `url(${item.image})` }}
-          className="shadow-lg shadow-[#040c16] group container rounded-md 
+          className="shadow-lg shadow-[#19130d] group container rounded-md 
                     flex justify-center text-center items-center mx-auto content-div "
         >
           {/* Hover effect for images */}

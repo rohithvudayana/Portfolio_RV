@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import Logo from '../assets/logo.png';
+import Logo from '../assets/rohith_logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -17,10 +17,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 bg-pink-500 text-[#0a192f] font-bold text-xl'>
+    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 text-pink-600 bg-[#0a192f] font-semi-bold text-2xl'>
       <div>
-        {/* <img src={Logo} alt='Logo Image' style={{ width: '200px' }} /> */}
-        <p className='text-[#0a192f] text-4xl sm:text-4xl font-bold mx-5' >VR</p>
+        <img className='pt-200 pr-10' src={Logo} alt='Logo Image' style={{ width: '100px', height:'40px'}} />
+        {/* <p className='text-pink-600 text-2xl sm:text-2xl font-bold mx-5' >Vudayana Rohith</p> */}
       </div>
 
       {/* menu */}
@@ -62,7 +62,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-pink-600 flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -126,7 +126,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/1hL8qSvAr9FggZgEoi6RHOUhSjgT2m2Wj/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
