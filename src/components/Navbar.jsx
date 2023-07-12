@@ -17,10 +17,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 bg-pink-500 text-[#0a192f] font-bold text-xl'>
       <div>
         {/* <img src={Logo} alt='Logo Image' style={{ width: '200px' }} /> */}
-        <p className='text-pink-600  text-4xl sm:text-7xl font-bold' >VR</p>
+        <p className='text-[#0a192f] text-4xl sm:text-4xl font-bold mx-5' >VR</p>
       </div>
 
       {/* menu */}
@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li>
@@ -62,7 +62,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-pink-600 flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
